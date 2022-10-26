@@ -93,7 +93,8 @@ export default function Example () {
                       href='#'
                       className='flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-md text-indigo-700 bg-white hover:bg-indigo-50'
                     >
-                      <span className='wave pr-2'>👋 </span>let's get started
+                      <span className='wave pr-2'>👋 </span>let&#39;s get
+                      started
                     </a>
                   </div>
                 </div>
