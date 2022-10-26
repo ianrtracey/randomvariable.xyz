@@ -65,23 +65,15 @@ const services = [
 export default function Example () {
   return (
     <div className='bg-white'>
-      <header>
-        <div className='flex justify-between items-center max-w-7xl mx-auto px-8 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-32'>
-          <div className='flex justify-start lg:w-0 lg:flex-1'>
-            <div>
-              <p className='text-2xl font-extrabold  text-slate-200'>
-                <span className='text-indigo-700'>random variable</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </header>
-      <main>
+      <main className='mt-6'>
         <div>
           {/* Hero card */}
           <div className='relative'>
-            <div className='absolute inset-x-0 bottom-0 h-1/2 bg-gray-100' />
-            <div className='max-w-5xl mx-auto sm:px-6 lg:px-8'>
+            <div className='absolute inset-x-0 bottom-0 h-1/2' />
+            <div className='max-w-3xl mx-auto sm:px-6 lg:px-8'>
+              <p className='mt-0 p-0 text-2xl font-bold'>
+                <span className='ml-1 text-slate-500'>random variable</span>
+              </p>
               <div className='relative shadow-xl sm:rounded-2xl sm:overflow-hidden'>
                 <div className='absolute inset-0'>
                   <div className='absolute inset-0 bg-indigo-700 mix-blend-multiply' />
@@ -103,6 +95,36 @@ export default function Example () {
                     >
                       <span className='wave pr-2'>👋 </span>let's get started
                     </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=''>
+          <div className='mx-auto max-w-xl py-8'>
+            <div className=''>
+              <h2 className='mx-auto max-w-md text-center text-2xl font-bold text-slate-500 lg:max-w-xl lg:text-left'>
+                Founded by growth talent from
+              </h2>
+              <div className='mt-8 flow-root self-center lg:mt-0'>
+                <div className='-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4'>
+                  <div className='mt-4 flex flex-shrink-0 flex-grow justify-center lg:ml-4 grayscale opacity-90'>
+                    <img className='h-12' src='/stripe.png' alt='Stripe logo' />
+                  </div>
+                  <div className='mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center items-center lg:ml-4 lg:flex-grow-0 grayscale opacity-75'>
+                    <img
+                      className='h-8'
+                      src='/atlassian.png'
+                      alt='Atlassian logo'
+                    />
+                  </div>
+                  <div className='mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0 grayscale opacity-75'>
+                    <img
+                      className='h-12'
+                      src='/pinterest.jpg'
+                      alt='Pinterest logo'
+                    />
                   </div>
                 </div>
               </div>
