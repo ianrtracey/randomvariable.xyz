@@ -84,9 +84,9 @@ export default function Example () {
                     <span className='block text-indigo-200'>on speed dial</span>
                   </h1>
                   <p className='mt-6 max-w-2xl mx-auto text-center text-xl text-indigo-200'>
-                    We're a team of full stack engineers, designers, and data
-                    scientists helping innovative businesses tackle hard growth
-                    challenges
+                    We&#39;re a team of full stack engineers, designers, and
+                    data scientists helping innovative businesses tackle hard
+                    growth challenges
                   </p>
                   <div className='mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center'>
                     <a
